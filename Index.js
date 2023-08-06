@@ -159,3 +159,7 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  // Code to render and send the index page here
+  res.sendFile(__dirname + '/public/index.html');
+
