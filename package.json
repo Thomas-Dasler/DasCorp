@@ -4,7 +4,7 @@
   "description": "Test and Learn",
   "main": "index.js",
   "scripts": {
-    "test": "Test1313",
+    "test": "Test1313"
   },
   "repository": {
     "type": "git",
