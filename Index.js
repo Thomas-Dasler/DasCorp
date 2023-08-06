@@ -79,6 +79,12 @@ client.connect((err) => {
   const db = client.db();
 
   // Middleware for session management
+
+app.get('/', (req, res) => {
+  // Code to render and send the index page here
+  res.sendFile(__dirname + '/public/index.html');
+});
+
   app.use(
     session({
       secret: 'your-secret-key',
@@ -152,3 +158,4 @@ client.connect((err) => {
     console.log(`Server is running on port ${port}`);
   });
 });
+
