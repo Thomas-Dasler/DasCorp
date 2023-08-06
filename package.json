@@ -1,0 +1,28 @@
+{
+  "name": "dascorps.eu",
+  "version": "1.0.0",
+  "description": "Test and Learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test1313"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Thomas-Dasler/DasCorp"
+  },
+  "keywords": [
+    "Node.js",
+    "HTML",
+    "Java",
+    "Express.js",
+    "Azure",
+    "MongoDB"
+  ],
+  "author": "Ilian Eremiev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "5.7"
+  }
+}
