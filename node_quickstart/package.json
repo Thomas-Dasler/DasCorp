@@ -1,12 +1,31 @@
 {
-  "name": "node_quickstart",
+  "name": "dascorps.eu",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test and Learn",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Test1313"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "github.com/Thomas-Dasler/DasCorp"
+  },
+  "keywords": [
+    "Node.js",
+    "HTML",
+    "Java",
+    "Express.js",
+    "Azure",
+    "MongoDB"
+  ],
+  "author": "Ilian Eremiev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "5.7"
+  },
+  "engines": {
+    "node": "v18.17.0"
+  }
 }
