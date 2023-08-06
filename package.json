@@ -4,8 +4,7 @@
   "description": "Test and Learn",
   "main": "index.js",
   "scripts": {
-    "test": "Test1313",
-    "build": "node index.js" // Add this line to define the build script
+    "test": "Test1313"
   },
   "repository": {
     "type": "git",
